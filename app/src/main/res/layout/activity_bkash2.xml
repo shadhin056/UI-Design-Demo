@@ -13,7 +13,7 @@ android:orientation="vertical">
     android:layout_alignParentBottom="true"
     android:src="@drawable/qr"
     android:layout_centerInParent="true"
-    android:layout_marginBottom="50dp"
+    android:layout_marginBottom="40dp"
     android:clickable="true"
     android:focusable="true" />
 
@@ -22,7 +22,7 @@ android:orientation="vertical">
         android:layout_width="match_parent"
         app:itemIconTint="@drawable/bottom_navigation_colors"
         app:itemTextColor="@drawable/bottom_navigation_colors"
-        android:layout_height="72dp"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:background="#ffffff"
         app:labelVisibilityMode="labeled"/>
