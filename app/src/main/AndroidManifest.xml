@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BkashActivity"></activity>
-        <activity android:name=".ViewActivity" />
-        <activity android:name=".RegistrationActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Bkash3Activity"/>
+        <activity android:name=".BkashActivity"/>
+        <activity android:name=".Bkash2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

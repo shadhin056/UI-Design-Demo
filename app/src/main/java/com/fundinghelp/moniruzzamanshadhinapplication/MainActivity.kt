@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun buttonAction() {
         btnRegCustomer.setOnClickListener {
-            val intent = Intent(this@MainActivity, BkashActivity::class.java)
+            val intent = Intent(this@MainActivity, Bkash2Activity::class.java)
             startActivity(intent);
         }
     }
