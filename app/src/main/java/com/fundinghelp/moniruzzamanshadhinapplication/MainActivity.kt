@@ -3,7 +3,6 @@ package com.fundinghelp.moniruzzamanshadhinapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,8 +14,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun buttonAction() {
-        btnRegCustomer.setOnClickListener {
-            val intent = Intent(this@MainActivity, Bkash2Activity::class.java)
+        btnRegStatic.setOnClickListener {
+            val intent = Intent(this@MainActivity, CurvedBottomNavActivity::class.java)
+            startActivity(intent);
+        }
+        btnDynamic.setOnClickListener {
+            val intent = Intent(this@MainActivity, DynamicCurvedBottomNavActivity::class.java)
             startActivity(intent);
         }
     }

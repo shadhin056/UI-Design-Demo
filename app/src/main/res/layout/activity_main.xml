@@ -14,13 +14,19 @@
          android:layout_width="match_parent"
          android:layout_height="match_parent">
          <Button
-             android:id="@+id/btnRegCustomer"
-             android:text="Bkash UI"
+             android:id="@+id/btnRegStatic"
+             android:text="Curved Bottom Menu"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content">
 
          </Button>
+         <Button
+             android:id="@+id/btnDynamic"
+             android:text="Dynamic Curved Bottom Menu"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
 
+         </Button>
      </LinearLayout>
 
 </LinearLayout>

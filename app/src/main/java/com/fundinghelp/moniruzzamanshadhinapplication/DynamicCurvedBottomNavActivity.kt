@@ -3,13 +3,13 @@ package com.fundinghelp.moniruzzamanshadhinapplication
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation
-import kotlinx.android.synthetic.main.activity_bkash.*
+import kotlinx.android.synthetic.main.activity_cbm.*
 
-class BkashActivity : AppCompatActivity() {
+class DynamicCurvedBottomNavActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bkash)
+        setContentView(R.layout.activity_cbm)
 
         bottomNavigation.add(MeowBottomNavigation.Model(1, R.drawable.home))
         bottomNavigation.add(MeowBottomNavigation.Model(2, R.drawable.qr))
